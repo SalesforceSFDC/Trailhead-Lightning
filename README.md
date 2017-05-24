@@ -14,13 +14,14 @@
 * The browser displays the HTML
 * When the user interacts with the page, return to step one
 #### Pros
-Tried and true model
-Easy to implement for greater productivity
-Naturally splits large applications into small, manageable pages
-Has built-in metadata integration
-Caveats
-Limited interactivity (aside from added JavaScript functionality)
-Higher latency, which degrades mobile performance
+* Tried and true model
+* Easy to implement for greater productivity
+* Naturally splits large applications into small, manageable pages
+* Has built-in metadata integration
+#### Caveats
+* Limited interactivity (aside from added JavaScript functionality)
+* Higher latency, which degrades mobile performance
+
 Visualforce is conceptually similar to other page-centric technologies like PHP, ASP, JSP, and Ruby on Rails. Salesforce’s rich metadata infrastructure makes Visualforce a productive solution. The standard controller makes it easy to access objects directly and via relationships without executing a single query. Other metadata-aware components are similarly plug-and-play: add markup to a page and you’re done. These capabilities are alive and well on the platform, and they’re still suitable for many use cases.
   
 ### App-centric model
