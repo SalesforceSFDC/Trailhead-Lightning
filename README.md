@@ -5,15 +5,15 @@
   * Visualforce framework provides a robust set of tags that are resolved on the server, and that work alongside standard or custom controllers to make database and other operation simple to implement.
   
 #### UI Generation
-Server-side
+* Server-side
 #### Data and Business Logic
-Apex standard or custom controller
+* Apex standard or custom controller
 #### Workflow
-User requests a page
-The server executes the page’s underlying code and sends the resulting HTML to the browser
-The browser displays the HTML
-When the user interacts with the page, return to step one
-Pros
+* User requests a page
+* The server executes the page’s underlying code and sends the resulting HTML to the browser
+* The browser displays the HTML
+* When the user interacts with the page, return to step one
+#### Pros
 Tried and true model
 Easy to implement for greater productivity
 Naturally splits large applications into small, manageable pages
