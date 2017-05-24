@@ -47,7 +47,8 @@ Load your JavaScript application in an empty page. Then the user interface is ge
 * No built-in metadata integration
 * Lack of an integrated developer experience. The Force.com Developer Console doesn’t explicitly support these JavaScript applications. Typically, you have to load them as static resources, and that’s a cumbersome experience.
 
-### App-centric model
+### Lightning Components 
+ * App-centric model
  * Javascript is used to create, modify, transform, and animate the UI rather than completely replacing it a page at a time.
 
 
