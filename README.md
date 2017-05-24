@@ -25,6 +25,10 @@
 Visualforce is conceptually similar to other page-centric technologies like PHP, ASP, JSP, and Ruby on Rails. Salesforce’s rich metadata infrastructure makes Visualforce a productive solution. The standard controller makes it easy to access objects directly and via relationships without executing a single query. Other metadata-aware components are similarly plug-and-play: add markup to a page and you’re done. These capabilities are alive and well on the platform, and they’re still suitable for many use cases.
 
 Visualforce pages are just HTML pages with an extra tag resolved by the server.
+
+### Visualforce as a Javascript Application Container
+
+Load your JavaScript application in an empty page. Then the user interface is generated on the client-side by the JavaScript application. These applications are generally referred to as single-page applications, or SPAs, and are often built using third-party frameworks like AngularJS or React.
   
 ### App-centric model
  * Javascript is used to create, modify, transform, and animate the UI rather than completely replacing it a page at a time.
