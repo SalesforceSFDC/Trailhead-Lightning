@@ -23,6 +23,8 @@
 * Higher latency, which degrades mobile performance
 
 Visualforce is conceptually similar to other page-centric technologies like PHP, ASP, JSP, and Ruby on Rails. Salesforce’s rich metadata infrastructure makes Visualforce a productive solution. The standard controller makes it easy to access objects directly and via relationships without executing a single query. Other metadata-aware components are similarly plug-and-play: add markup to a page and you’re done. These capabilities are alive and well on the platform, and they’re still suitable for many use cases.
+
+Visualforce pages are just HTML pages with an extra tag resolved by the server.
   
 ### App-centric model
  * Javascript is used to create, modify, transform, and animate the UI rather than completely replacing it a page at a time.
