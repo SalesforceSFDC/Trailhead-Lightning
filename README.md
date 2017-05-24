@@ -71,3 +71,4 @@ Load your JavaScript application in an empty page. Then the user interface is ge
 * Higher complexity than Visualforce—you’re building an application, not a page
 * Since Lightning components are new, there are still some features that aren’t supported
 * There are a limited number of out-of-the-box components
+
