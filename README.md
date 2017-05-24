@@ -51,4 +51,23 @@ Load your JavaScript application in an empty page. Then the user interface is ge
  * App-centric model
  * Javascript is used to create, modify, transform, and animate the UI rather than completely replacing it a page at a time.
 
-
+#### UI Generation
+* Client-side (JavaScript)
+#### Data and Business Logic
+* Lightning Data Services, Apex controller
+#### Workflow
+* The user requests an application or a component
+* The application or component bundle is returned to the client
+* The browser loads the bundle
+* The JavaScript application generates the UI
+* When the user interacts with the page, the JavaScript application modifies the user interface as needed (return to previous step)
+#### Pros
+* Enables highly interactive and immersive user experiences
+* Aligns with Salesforce user interface strategy
+* Built on metadata from the foundation, accelerating development
+* Both the Force.com IDE and the Developer Console support Lightning components, providing an integrated developer experience
+#### Caveats
+* Steeper, longer learning curve compared to Visualforce
+* Higher complexity than Visualforce—you’re building an application, not a page
+* Since Lightning components are new, there are still some features that aren’t supported
+* There are a limited number of out-of-the-box components
