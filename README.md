@@ -30,6 +30,23 @@ Visualforce pages are just HTML pages with an extra tag resolved by the server.
 
 Load your JavaScript application in an empty page. Then the user interface is generated on the client-side by the JavaScript application. These applications are generally referred to as single-page applications, or SPAs, and are often built using third-party frameworks like AngularJS or React.
   
+#### UI Generation
+* Client-side (mostly JavaScript)
+#### Data and Business Logic
+* Remote Objects or JavaScript Remoting, Apex controller
+#### Workflow
+* The user requests the “empty” Visualforce page containing a page skeleton and JavaScript includes
+* The page is returned to the browser
+* The browser loads the JavaScript application
+* The JavaScript application generates the UI
+* When a user interacts with the application, the JavaScript modifies the user interface as needed (return to the previous step)
+#### Pros
+* Enables highly interactive and immersive user experiences
+#### Caveats
+* Complex
+* No built-in metadata integration
+* Lack of an integrated developer experience. The Force.com Developer Console doesn’t explicitly support these JavaScript applications. Typically, you have to load them as static resources, and that’s a cumbersome experience.
+
 ### App-centric model
  * Javascript is used to create, modify, transform, and animate the UI rather than completely replacing it a page at a time.
 
